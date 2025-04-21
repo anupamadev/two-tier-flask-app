@@ -19,7 +19,7 @@ RUN pip install --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt && \
     pip install python-dotenv
 
-ENV MYSQL_HOST=sql_cont
+ENV MYSQL_HOST=localhost
 ENV MYSQL_USER=external_user
 ENV MYSQL_PASSWORD=password
 ENV MYSQL_DB=my_database
